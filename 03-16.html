@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PRODUKTINFORMATIONEN</title>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    html {
+      background-color: #e0e0e0;
+    }
+    body {
+      font-family: 'Source Sans Pro', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background: linear-gradient(to bottom, #e0e0e0 0%, #f5f5f5 30%, #ffffff 100%);
+    }
+    header {
+      color: white;
+      padding: 3rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: transparent;
+    }
+    header img {
+      height: 60px;
+      margin-right: 1rem;
+    }
+    header h1 {
+      margin: 0;
+      text-align: right;
+      flex: 1;
+      color: black;
+      font-size: clamp(1.2rem, 6vw, 2rem); /* dynamisch von 1.2rem bis 2rem */
+    }
+    main {
+      padding: 1rem;
+      flex: 1;
+    }
+    .card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      margin: 0 auto 1rem auto;
+      padding: 1rem;
+      width: 90%;
+      max-width: 600px;
+      text-align: left;
+    }
+    .card h2 {
+      font-size: 1rem;
+      margin: 0 0 0.75rem 0;
+      color: #2e7d32;
+      text-align: left;
+    }
+    .btn {
+      display: block;
+      background-color: #2e7d32;
+      color: white;
+      padding: 0.5rem 1.5rem;
+      border: none;
+      border-radius: 4px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 1rem;
+      width: fit-content;
+      margin: 0 auto;
+    }
+    .btn:hover {
+      background-color: #256528;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.75rem;
+      color: #777;
+      margin-top: 2rem;
+      padding: 0.75rem 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Tobolin_Digital.svg" alt="TOBOLIN Logo" />
+    <h1>PRODUKTINFORMATIONEN</h1>
+  </header>
+  <main>
+    <div class="card">
+      <h2>Etikett</h2>
+      <a href="#" class="btn">Öffnen</a>
+    </div>
+    <div class="card">
+      <h2>Sicherheitsdatenblatt</h2>
+      <a href="#" class="btn">Öffnen</a>
+    </div>
+    <div class="card">
+      <h2>Technisches Merkblatt</h2>
+      <a href="#" class="btn">Öffnen</a>
+    </div>
+    <div class="card">
+      <h2>Gebrauchsanleitung</h2>
+      <a href="#" class="btn">Öffnen</a>
+    </div>
+    <div class="card">
+      <h2>Risikoanalyse</h2>
+      <a href="#" class="btn">Öffnen</a>
+    </div>
+  </main>
+  <footer>
+    powered by TOBOLIN 07.2025
+  </footer>
+</body>
+</html>
